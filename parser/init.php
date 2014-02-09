@@ -1,0 +1,9 @@
+<?php
+require_once('lib/ApkParser/AndroidPlatform.php');
+require_once('lib/ApkParser/Archive.php');
+require_once('lib/ApkParser/Manifest.php');
+require_once('lib/ApkParser/ManifestXmlElement.php');
+require_once('lib/ApkParser/Parser.php');
+require_once('lib/ApkParser/Stream.php');
+require_once('lib/ApkParser/Xml.php');
+require_once('lib/ApkParser/XmlParser.php');

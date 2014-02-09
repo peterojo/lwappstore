@@ -1,0 +1,141 @@
+    html,body{
+	   background: #eee url(../img/mainbg.jpg) repeat;
+	   margin:0;
+	   padding:0;
+	   text-shadow:1px 1px 0px #fff;  
+	}
+    .header{
+	    width:95%;
+		background:none;
+		padding:5px 0;
+		font-size:80%;
+		
+		}
+		
+	.header h3{
+		float:left;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		}
+    
+	.content{
+		width:95%;
+		background:#FFF;
+		margin:0px auto ;
+		padding:10px;
+		box-shadow:0 2px 10px #ccc;
+		-moz-box-shadow:0 2px 10px #ccc;
+		webkit-box-shadow:0 2px 10px #ccc;
+		o-box-shadow:0 2px 10px #ccc;
+		ms-box-shadow:0 2px 10px #ccc;
+		
+     }
+	.content table tr:nth-child(even){
+		border-bottom:0px solid #999;
+		background:#f5f5f5;
+		padding:10px;
+		}
+		
+	.content table tr:hover{
+		background:#9CF;
+		color:#fff;
+		text-shadow:none;
+		}
+		
+.content table tr a{
+		color:#333;
+		}
+	.content table tr a:hover{
+		color:#fff;
+		text-shadow:none;
+		}
+		
+	.content table td{
+		padding:15px;
+		font-size:90%;
+		}
+	
+	.title{
+		background:#eee;
+     }
+	.titleRight{
+		 float: right;
+		 height:70px;
+		 line-height:70px;
+		 width:300px;
+		 text-align:right;
+		
+		 }
+		 
+	 .titleRight span{
+		 padding-right:20px;
+		 
+	
+	
+		 }
+	 .titleRight span a{
+		 padding-right:20px;
+		 float:none;
+		 }
+	.shadow{}
+	.right{ float:right}
+	.footer{
+		font-size:90%;
+		padding:20px 0;
+		}
+		
+/*OVERLAY*/		
+
+    /* use a semi-transparent image for the overlay */
+	
+  #overlay {
+    background-image:url(../img/white.png);
+    color:#efefef;
+    height:450px;
+   
+  }
+  /* container for external content. uses vertical scrollbar, if needed */
+  div.contentWrap {
+    height:441px;
+    overflow-y:auto;
+  }
+
+
+/* the overlayed element */
+.apple_overlay {
+
+    /* initially overlay is hidden */
+    display:none;
+
+    /* growing background image */
+    background-image:none;
+
+    /*
+      width after the growing animation finishes
+      height is automatically calculated
+      */
+    width:640px;
+
+    /* some padding to layout nested elements nicely  */
+    padding:35px;
+
+    /* a little styling */
+    font-size:11px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+    background-image:url(../img/close.png);
+    position:absolute; right:5px; top:5px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+/* get rid of those system borders being generated for A tags */
+a:active {
+    outline:none;
+}
+img{ border:none;}
+:focus {
+    -moz-outline-style:none;
+}
